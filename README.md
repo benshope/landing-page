@@ -1,4 +1,4 @@
-landing-page
+# Landing Page
 ============
 
-Landing Page Template
+A Simple Landing/Construction Page
