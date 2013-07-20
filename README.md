@@ -1,4 +1,3 @@
 # Landing Page
-============
 
-A Simple Landing/Construction Page
+A Simple HTML/JS Landing/Construction Page
