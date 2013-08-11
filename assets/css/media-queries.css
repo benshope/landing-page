@@ -8,7 +8,7 @@
 		position:fixed;
 	}
     div#logo {
-		 padding-top:30px; 
+		 padding-top:20px; 
 	} 	
 	#bg-image {
 		height: 100%;
@@ -71,7 +71,7 @@
 		width: auto;
 	}	
 	div.section.newsletter input.text {
-	    width:82%; 
+	    /*width:82%; */
 	}
 	div.section.newsletter input.submit {
 	    width:88px; 
@@ -113,7 +113,7 @@
 		position:fixed;
 	}
     div#logo {
-		 padding-top:18px; 
+		 padding-top:13px; 
 	} 	
 	#bg-image,#bg-pattern{
 		top:100px;
