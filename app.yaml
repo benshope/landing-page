@@ -10,5 +10,5 @@ handlers:
 - url: /customizer
   static_dir: customizer
 - url: .*
-  static_files: static/html/index.html
-  upload: static/html/index.html
+  static_files: index.html
+  upload: index.html
