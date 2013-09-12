@@ -5,10 +5,12 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /assets
-  static_dir: assets
-- url: /customizer
-  static_dir: customizer
+- url: /css
+  static_dir: css
+- url: /img
+  static_dir: img
+- url: /js
+  static_dir: js
 - url: .*
   static_files: index.html
   upload: index.html
