@@ -1,5 +1,3 @@
-# Landing Page
+# Senior Spring
 
-A Simple HTML/JS Landing/Construction Page
-
-This will get folded into BenPress as an included theme.
+Design and consulting company website.
