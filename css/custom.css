@@ -61,7 +61,7 @@ a.carousel-control:hover {
 /*************************************************************
                              layout
 **************************************************************/
-#download, #testimonials, #prices, #subscribe, #footer{
+#download, #about, #process, #subscribe, #footer{
   min-height: 20px;
   padding: 20px 0;
 }
@@ -193,9 +193,9 @@ width: 100%;
 
 
 /*************************************************************
-                        section#testimonials
+                        section#about
 **************************************************************/
-.testimonials {
+.about {
   padding: 90px 0 60px !important;
 }
 blockquote {
@@ -216,7 +216,7 @@ blockquote p {
 blockquote small {
  line-height: 3.5em;
 }
-.testimonials i {
+.about i {
   display: inline-block;
   color: rgb(220, 220,220);
   font-size: 200px;
@@ -239,9 +239,9 @@ blockquote:hover i {
 
 
 /*************************************************************
-                        section#prices
+                        section#process
 **************************************************************/
-.prices {
+.process {
   background: url(../img/bg2.jpg);
   background-repeat: no-repeat;
   -webkit-background-size:cover;
@@ -249,7 +249,7 @@ blockquote:hover i {
   background-size:cover;
   padding: 100px 0 !important;
 }
-.prices .container {
+.process .container {
   max-width: 800px;
 }
 .plan {
@@ -556,10 +556,10 @@ ul.social li:nth-child(6):before{
   }
   
   /* blockqoute */
-  .testimonials {
+  .about {
     padding: 44px 0 60px !important;
   }
-  .testimonials i {
+  .about i {
     font-size: 106px;
   }
   blockquote > div {

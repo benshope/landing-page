@@ -11,8 +11,8 @@ $(document).ready(function() {
   // init the google map plugin
   map = new GMaps({
     el: '#map',
-    lat: -12.043333,
-    lng: -77.028333
+    lat: 37.3894,
+    lng: -122.0819
   });
   map.setContextMenu({
     control: 'map',
