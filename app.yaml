@@ -11,6 +11,8 @@ handlers:
   static_dir: img
 - url: /js
   static_dir: js
+- url: /mail
+  script: main.app
 - url: .*
   static_files: index.html
   upload: index.html
