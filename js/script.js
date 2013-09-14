@@ -60,7 +60,7 @@ $(document).ready(function() {
   
   // ajax contact form
   $('#contact-form').submit(function(){
-    $.post('contact-form.php', $(this).serialize(), function(data){
+    $.post('mail', $(this).serialize(), function(data){
       $('#contact-form').html(data);
       $('#contact-form input, #contact-form textarea').val('');
     });				
