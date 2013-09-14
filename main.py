@@ -9,7 +9,7 @@ from google.appengine.api import mail
 class SendMail(webapp2.RequestHandler):
   def post(self):
     mail.send_mail(sender="{0} <{1}>".format(self.request.get('name'), self.request.get('email')),
-                  to="Senior Spring Design <nimajnebs@gmail.com>",
+                  to="Ben Shope <nimajnebs@gmail.com>",
                   subject="Senior Spring Contact Form Message",
                   body=self.request.get('message'))
     
