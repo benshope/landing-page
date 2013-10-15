@@ -5,17 +5,11 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /css
-  static_dir: css
-- url: /img
-  static_dir: img
-- url: /js
-  static_dir: js
-- url: /mail
-  script: main.app
-- url: .*
-  static_files: index.html
-  upload: index.html
+- url: /
+  static_files: static/index.html
+  upload: static/index.html
+- url: /
+  static_dir: static
 
 libraries:
 - name: webapp2
